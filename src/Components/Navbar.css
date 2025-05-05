@@ -1,0 +1,19 @@
+.nav-container{
+    display:flex;
+    padding:20px;
+    justify-content:space-between;
+    background-color: rgb(5, 5, 112);
+}
+.logo{
+    margin:0;
+    color:white;
+    font-size:30px;
+}
+.nav-links a{
+    margin:25px;
+    text-decoration: none;
+    color:white;
+}
+.dot{
+    color:rgb(13, 114, 148);
+}

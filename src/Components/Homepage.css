@@ -1,0 +1,39 @@
+.Home{
+    display:flex;
+    background-color: rgb(5, 5, 112);
+    height:510px;
+}
+.Home h1{
+    
+    color:white;
+    font-size:50px;
+    margin:0 70px;
+    font-family:monospace;
+    
+    
+}
+button{
+    margin:15px 70px;
+    width:130px;
+    height:40px;
+    color:white;
+    background-color:rgb(13, 114, 148);
+    border:none;
+}
+.text-content{
+    
+    width:50%;
+    margin-top:130px;
+    
+}
+.Home img{
+    width:450px;
+    border:15px solid white;
+    padding:0;
+    height:450px;
+    
+}
+.image{
+     
+    width:50%;
+}
