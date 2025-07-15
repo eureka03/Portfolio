@@ -37,6 +37,7 @@ button{
     background-color:rgb(13, 114, 148);
     border:none;
     cursor:pointer;
+    border:1px solid white;
 }
 .text-content{
     
@@ -49,7 +50,7 @@ button{
     height:500px;
     margin-left:50px;
     padding:0;
-    left:379px;
+    left:379.7px;
     position:absolute;
     bottom:0px;
     top:110px;
@@ -62,6 +63,7 @@ button{
     width:60%;
     padding-bottom:0;
     border:2px solid white;
+    background-color:rgb(13, 114, 148);
     
 }
 
