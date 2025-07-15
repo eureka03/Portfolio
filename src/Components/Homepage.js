@@ -17,6 +17,7 @@ export default function Homepage(){
                 
                 </div>
                 <div className='image'>
+                    
                     <motion.img
                         src={Profile}>
                         

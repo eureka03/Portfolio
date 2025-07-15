@@ -8,14 +8,14 @@ export default function Navbar(){
         <nav className="">
             <div className="nav-container">
                 <h1 className='logo'>
-                    <Link to='./'>Eureka</Link> <span className='dot'>.</span>
+                    <Link to='./'>Eureka</Link><span className='dot'>.</span>
                 </h1>
                 <div className='nav-links'>
                     <Link to='./About.js'>About</Link>
                     <Link to='./Projects.js'>Portfolio</Link>
                     <Link to='https://github.com/eureka03'><FaGithub/></Link>
                     <Link to='https://www.linkedin.com/in/eureka-baloyi-190a74203/'><FaLinkedinIn /></Link>
-                    <button>Hire me </button>
+                    <button> Hire me </button>
                 </div>
             </div>
         </nav>
