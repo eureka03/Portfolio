@@ -7,14 +7,16 @@
     padding-top:20px;
     
 }
-.web, .mobile{
+.web, .mobile, .cloud{
     display:flex;
     margin-left:120px;
     margin-top:30px;
     border-left:2px solid rgb(13, 114, 148);
     padding-left:20px;
+    font-family:monospace;
     
 }
+
 h3{
     margin-left:20px;
 }
