@@ -1,7 +1,7 @@
 import {motion} from 'motion/react';
 import Profile from '../Assets/profile.png';
 import './Homepage.css';
-import { MdArrowRightAlt } from "react-icons/md";
+
 
  
 
@@ -31,7 +31,7 @@ export default function Homepage(){
                 
             </div>
             <div className="socials">
-                
+
             </div>
         </div>
     )
