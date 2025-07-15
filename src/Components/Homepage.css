@@ -1,14 +1,14 @@
 *{
     margin:0;
+    padding:0;
+    overflow:hidden;
 }
-body{
-    height:400px;
-}
+
 .Home{
     display:grid;
     grid-template-columns: repeat(3,1fr);
     background-color: #222426;
-    height:400px;
+    height:505px;
     
 }
 .Home div{
@@ -17,6 +17,7 @@ body{
     justify-content:center;
     text-align:center;
     color:white;
+    height:500px;
 }
 .Home p{
 }
@@ -43,17 +44,21 @@ button{
     
 }
 .Home img{
-    width:480px;
-    
-    height:525px;
+    width:600px;
+    height:500px;
     margin-left:50px;
-    
+    padding:0;
+    left:290px;
+    position:absolute;
+    bottom:0px;
+    top:110px;
     
 }
 .image{
     padding:0;
-    margin:0;
-    height:490px;
+    margin:0 0;
+    height:540px;
     width:50%;
+    padding-bottom:0;
     
 }
