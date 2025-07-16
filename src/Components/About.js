@@ -23,7 +23,18 @@ export default function About(){
                     </div>
               </div>
               <div className='About'>
-                <h2>About Me</h2>
+                <h2>So Who am I?</h2>
+                <p>Hi , I'm Eureka Baloyi , a passionate Full Stack<br/>
+                    Developer based in Johannesburg, South Africa.
+                </p>
+                <p>
+                    I specialize in creating dynamic and user-friendly<br/>
+                    web applications using JavaScript, React and Node.js<br/>
+                    I also have professional experience as a Salesforce <br/>
+                    Developer, where I learned the importance of scalable architecture<br/>
+                    clean code, and delivering real-world business solutions.<br/>
+
+                </p>
               </div>
               
             </div>
