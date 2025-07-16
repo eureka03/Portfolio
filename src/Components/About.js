@@ -17,6 +17,7 @@ export default function About(){
                         <span><IoPhonePortraitOutline size={30}/></span>
                         <h3>Mobile Development</h3>
                     </div>
+              
                     <div className='cloud'>
                         <span><FaSalesforce size={30}/></span>
                         <h3>Salesforce Develpment</h3>

@@ -4,7 +4,7 @@
     background-color: #222426;
     height:505px;
     color:white;
-    padding-top:20px;
+    padding-top:30px;
     
 }
 .web, .mobile, .cloud{
@@ -19,4 +19,9 @@
 
 h3{
     margin-left:20px;
+}
+
+.About p{
+    margin-top:10px;
+    font-family:roboto;
 }
