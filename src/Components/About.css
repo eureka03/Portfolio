@@ -20,8 +20,22 @@
 h3{
     margin-left:20px;
 }
-
+h2{
+    font-family: monospace;
+    font-size:30px;
+}
 .About p{
     margin-top:10px;
     font-family:roboto;
+}
+.About button {
+    width:150px;
+    height:40px;
+    border:none;
+    margin-top:20px;
+    border:1px solid white;
+    background-color:rgb(13, 114, 148);
+    color:white;
+    cursor:pointer;
+
 }

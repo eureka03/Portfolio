@@ -19,6 +19,16 @@ a{
 .dot{
     color:rgb(13, 114, 148);
 }
+.nav-links button{
+        margin:15px 70px;
+        width:130px;
+        height:40px;
+        color:white;
+        background-color:rgb(13, 114, 148);
+        border:none;
+        cursor:pointer;
+        border:1px solid white;
+    }
 
 @media (max-width:600px){
         .nav-container{
@@ -41,5 +51,15 @@ a{
     }
     .dot{
         color:rgb(13, 114, 148);
+    }
+    .nav-links button{
+        margin:15px 70px;
+        width:130px;
+        height:40px;
+        color:white;
+        background-color:rgb(13, 114, 148);
+        border:none;
+        cursor:pointer;
+        border:1px solid white;
     }
 }

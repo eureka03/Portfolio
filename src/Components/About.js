@@ -2,6 +2,7 @@ import './About.css';
 import { LiaLaptopCodeSolid } from "react-icons/lia";
 import { IoPhonePortraitOutline } from "react-icons/io5";
 import { FaSalesforce } from "react-icons/fa";
+import { AiOutlineDownload } from "react-icons/ai";
 
 
 export default function About(){
@@ -36,10 +37,11 @@ export default function About(){
                     clean code, and delivering real-world business solutions.<br/>
 
                 </p>
+                <button className='download'><a href="/Eureka-FStack-Remume.pdf" download>Download CV <AiOutlineDownload size={12} /></a></button>
               </div>
               
             </div>
-        </>
+        </> 
 
     );
 }
