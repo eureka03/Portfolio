@@ -21,9 +21,19 @@
 h3{
     margin-left:20px;
 }
-h2{
+.About h2{
     font-family: monospace;
     font-size:30px;
+    animation:typing 4s steps(20,end) forwards;
+    width:0;
+    white-space: nowrap;
+    overflow:hidden;
+}
+
+@keyframes typing{
+    to{
+        width:100%;
+    }
 }
 .About p{
     margin-top:10px;
