@@ -18,22 +18,23 @@ export default function Projects(){
                 
                 <div className='projects'>
                     <div className='project'>
+                        
                         <img src={Kota} alt='project1'/>
                         <h3>Kota Business</h3>
                         <p>Side project</p>
-                        <Link to=''>Check out Kota Business</Link>
+                        <Link to=''><button>Visit</button></Link>
                     </div>
                     <div className='project'>
-                       <img src={Travel} alt='project2'/>
+                        <img src={Travel} alt='project2'/>
                         <h3>Travel List</h3>
                         <p>Side project</p>
-                        <Link to=''>Check out Travel List</Link>
+                        <Link to=''><button>Visit</button></Link>
                     </div>
                     <div className='project'>
                         <img src={BookingSystem} alt='project3'/>
                         <h3>Salon booking system</h3>
                         <p>Side project</p>
-                        <Link to=''>Check out Salon Booking System</Link>
+                        <Link to=''><button>Visit</button></Link>
                     </div>
                 </div>
             </div>
