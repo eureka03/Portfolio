@@ -1,0 +1,26 @@
+.projects{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.header{
+    display:grid;
+    grid-template-columns: repeat(3,3fr);
+   
+    margin:40px 100px;
+    font-family:monospace;
+
+}
+.header hr{
+    margin-top:8px;
+    width:80%;
+
+}
+
+.content{
+    margin-left:70px;
+}
+
+.projects{
+    margin:50px 100px;
+    text-align:center;
+}
