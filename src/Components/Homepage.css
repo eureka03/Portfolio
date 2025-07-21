@@ -261,6 +261,15 @@
         font-size:50px;
         margin:0 70px;
         font-family:monospace;
+        animation:typing 2s steps(20,end) forwards;
+        white-space:nowrap;
+        overflow:hidden;
+        width:0;
+    }
+    @keyframes typing{
+        to{
+            width:70%;
+        }
     }
     
     .text-content{
@@ -279,7 +288,7 @@
         bottom:0px;
         top:110px;
         opacity:0;
-        animation:fadeIn 5s ease-in forwards;
+        animation:fadeIn 2s ease-in forwards;
         
     }
     @keyframes fadeIn{
