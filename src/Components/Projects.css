@@ -44,6 +44,10 @@ a button{
     margin:20px;
     background-color:white;
     color:rgba(172, 175, 177, 1);
+    transition:transform 0.3s ease;
+}
+.project:hover{
+    transform:scale(1.05);
 }
 .projects a{
     color:rgb(13,114,1480);
