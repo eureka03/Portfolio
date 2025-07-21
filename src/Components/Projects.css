@@ -44,7 +44,8 @@ a button{
     margin:20px;
     background-color:white;
     color:rgba(172, 175, 177, 1);
-    transition:transform 0.3s ease;
+    transition:transform 0.7s ease;
+    cursor:pointer;
 }
 .project:hover{
     transform:scale(1.05);
