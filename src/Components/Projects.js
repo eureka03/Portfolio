@@ -2,6 +2,7 @@ import './Projects.css';
 import Kota from '../Assets/Kota.png';
 import BookingSystem from '../Assets/Bookingsystem.png';
 import {Link} from 'react-router-dom';
+import Travel from '../Assets/Travel.png';
 
 export default function Projects(){
     return(
@@ -23,10 +24,10 @@ export default function Projects(){
                         <Link to=''>Check out Kota Business</Link>
                     </div>
                     <div className='project'>
-                       <img src='' alt='project2'/>
-                        <h3>Trip</h3>
+                       <img src={Travel} alt='project2'/>
+                        <h3>Travel List</h3>
                         <p>Side project</p>
-                        <Link to=''>Check out Trip</Link>
+                        <Link to=''>Check out Travel List</Link>
                     </div>
                     <div className='project'>
                         <img src={BookingSystem} alt='project3'/>
