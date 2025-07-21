@@ -6,6 +6,7 @@
     color:white;
     padding-top:30px;
     
+    
 }
 .web, .mobile, .cloud{
     display:flex;
@@ -37,5 +38,16 @@ h2{
     background-color:rgb(13, 114, 148);
     color:white;
     cursor:pointer;
+  
+
 
 }
+
+
+
+.About button a{
+    text-decoration:none;
+    color:white;
+    
+}
+

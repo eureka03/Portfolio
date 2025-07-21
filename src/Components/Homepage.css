@@ -278,8 +278,16 @@
         position:absolute;
         bottom:0px;
         top:110px;
+        opacity:0;
+        animation:fadeIn 5s ease-in forwards;
         
     }
+    @keyframes fadeIn{
+        to{
+            opacity:1;
+        }
+    }
+    
     .image{
         padding:0;
         margin:0 0;
