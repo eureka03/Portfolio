@@ -324,12 +324,20 @@
         color:white;
         height:700px;
     }
-    .Home p{
-    }
+   
     .Home h1{
         font-size:50px;
         margin:0 70px;
         font-family:monospace;
+        animation:typing 2s steps(20,end) forwards;
+        width:0%;
+        white-space:nowrap;
+    }
+
+    @keyframes typing{
+        to{
+            width:2px;
+        }
     }
   
     .text-content{
@@ -339,15 +347,22 @@
         
     }
     .Home img{
-        width:570px;
+        width:537px;
         height:738px;
         
         padding:0;
-        left:645.7px;
+        left:602.7px;
         position:absolute;
         bottom:0px;
         top:110px;
+        opacity:0;
+        animation:fadeIn 2s ease-in forwards;
         
+    }
+    @keyframes fadeIn{
+        to{
+            opacity:1;
+        }
     }
     .image{
         padding:0;

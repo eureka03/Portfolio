@@ -60,4 +60,71 @@ h3{
     color:white;
     
 }
+@media (min-width:1400px){
+    .About-container{    
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        background-color: #222426;
+        height:875px;
+        color:white;
+        padding-top:150px;
+        
+        
+    }
+    .web, .mobile, .cloud{
+        display:flex;
+        margin-left:120px;
+        margin-top:30px;
+        border-left:2px solid rgb(13, 114, 148);
+        padding-left:20px;
+        font-family:monospace;
+        
+    }
+    
+    h3{
+        margin-left:20px;
+
+    }
+    .About h2{
+        font-family: monospace;
+        font-size:50px;
+        animation:typing 4s steps(20,end) forwards;
+        width:0;
+        white-space: nowrap;
+        overflow:hidden;
+    }
+    
+    
+    @keyframes typing{
+        to{
+            width:100%;
+        }
+    }
+    .About p{
+        margin-top:10px;
+        font-family:roboto;
+        font-size:20px;
+    }
+    .About button {
+        width:150px;
+        height:40px;
+        border:none;
+        margin-top:20px;
+        border:1px solid white;
+        background-color:rgb(13, 114, 148);
+        color:white;
+        cursor:pointer;
+      
+    
+    
+    }
+    
+    
+    
+    .About button a{
+        text-decoration:none;
+        color:white;
+        
+    }
+}
 
