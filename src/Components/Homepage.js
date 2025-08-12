@@ -12,7 +12,7 @@ export default function Homepage(){
                 <div className="designer">
                     <h1>Designer</h1>
                     <p>UI/UX Designer with a passion for<br/> designing 
-                        beautiful and functional<br/> user interfaces.
+                        beautiful and functional<br/> user interfaces
                     </p>
                 </div>
                 <div className='image'>
